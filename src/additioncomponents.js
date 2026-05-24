@@ -16,12 +16,7 @@ export const Addition=()=>{
         var c=n1-n2;
         setResult("Substraction = "+c);
     }
-        const Multiplication=()=>{
-        var n1=Number(txtnum1.current.value);
-        var n2=Number(txtnum2.current.value);
-        var c=n1*n2;
-        setResult("Multiplication = "+c);
-    }
+      
         const Division=()=>{
         var n1=Number(txtnum1.current.value);
         var n2=Number(txtnum2.current.value);
@@ -48,8 +43,6 @@ export const Addition=()=>{
                             <input type="button"  value="Add" onClick={Add}/>
                             &nbsp;
                             <input type="button"  value="Substract" onClick={Substract}/>
-                            &nbsp;
-                            <input type="button"  value="Multiply" onClick={Multiplication}/>
                             &nbsp;
                             <input type="button"  value="Divide" onClick={Division}/>
                             
